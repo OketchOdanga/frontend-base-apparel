@@ -18,7 +18,7 @@ main{
 
 .hero{
     display: grid;
-    background-image: url('./images/bg-pattern-desktop.svg');
+    background-image: url('./bg-pattern-desktop.svg');
     padding: 3rem 5rem;
     gap: 2rem;
 }
@@ -83,7 +83,7 @@ input::placeholder{
     top: 12px;
     height:25px;
     width: 25px;
-    background: url('./images/icon-error.svg');
+    background: url('./icon-error.svg');
     background-size: cover;
 }
 
@@ -112,12 +112,12 @@ main{
 .hero{
     display: grid;
     gap: 1rem;
-    background-image: url('./images/bg-pattern-desktop.svg');
+    background-image: url('./bg-pattern-desktop.svg');
     padding: 0;
 }
 
 .hero-mobile{
-    background-image: url('./images/hero-mobile.jpg');
+    background-image: url('./hero-mobile.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 39vh;
@@ -144,7 +144,7 @@ p{
 
 @media screen and (min-width:1024px) {
     .image{
-        background-image: url('./images/hero-desktop.jpg');
+        background-image: url('./hero-desktop.jpg');
         background-repeat: no-repeat;
         background-size: contain;
         background-position: right;
